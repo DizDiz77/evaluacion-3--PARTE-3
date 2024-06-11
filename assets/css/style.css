@@ -1,0 +1,90 @@
+body{
+   background-image: url(https://th.bing.com/th/id/R.1977659b239ff22a5f4bfa0645f38d75?rik=Z5XGN13VyPjbYw&pid=ImgRaw&r=0);
+    
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+
+}
+
+.aviso{
+    display: flex;
+    justify-content: center;
+    color: white;
+
+}
+
+#action-boton{
+    background-color: rgb(255, 0, 0);
+    color: azure;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: monospace;
+    border-color: white;
+
+}
+
+.cuerpo{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.ojos{
+    display: flex;
+    justify-content: center;
+    transform: translateY(-660px);
+    margin-right: 3%;
+    gap: 6%;
+    
+}
+
+
+.boca{
+    display: flex;
+    justify-content: center;
+    transform: translateY(-690px);
+    margin-right: 4%;
+    
+    
+}
+
+
+.brazos{
+    display: flex;
+    justify-content: center;
+    transform: translateY(-640px);
+    margin-right: 3%;
+
+}
+
+.cola{
+    display: flex;
+    justify-content: center;
+    transform: translateY(-1130px);
+    margin-right: -37%;
+
+}
+
+/*++++++++++++++++++++++++++++++++++++  ANIMACIONES  ++++++++++++++++++++++++++++++++++++++++++++*/
+
+#moverBrazos{
+   animation-name:moverBrazosRight;
+   animation-duration: 2000ms;
+   animation-fill-mode: forwards;
+}
+
+
+#moverCola{
+    animation-name:moverBrazosRight;
+    animation-duration: 2000ms;
+    animation-fill-mode: forwards;
+ }
+
+ .container{
+    animation: container 5s infinite;
+ }
+
